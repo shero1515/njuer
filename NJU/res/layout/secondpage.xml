@@ -19,41 +19,67 @@
         android:baselineAligned="false">
         
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:orientation="horizontal"          
-            >
-            <ImageView 
-            android:id="@+id/avatar"
-            android:layout_width="@dimen/profile_avatar_width"
-            android:layout_height="@dimen/profile_avatar_height"
-            android:background="@drawable/bg_timeline_avatar"
-            android:padding="1dp"            
-            />
-                -->
-            <TextView 
-                android:id="@+id/nickname"
-                android:layout_height="match_parent"
-                android:layout_width="wrap_content"
-                android:gravity="center_vertical"
-                android:text="shero"
-                android:layout_marginLeft="8dp"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:layout_gravity="center_horizontal"/>
-        </LinearLayout>
+            android:layout_width="match_parent"
+            android:layout_height="150dp"            
+            android:orientation="vertical"  >
         
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="70dp"
+	           	android:layout_marginLeft="16dp"
+	            android:layout_marginRight="16dp"
+	            android:layout_marginTop="16dp"
+	            android:layout_marginBottom="3dp"
+	            android:orientation="horizontal" >         
+	            
+	            <ImageView 
+		            android:id="@+id/avatar"
+		            android:layout_width="@dimen/profile_avatar_width"
+		            android:layout_height="@dimen/profile_avatar_height"
+		            android:background="@drawable/bg_timeline_avatar"
+		            android:padding="1dp" />            
+	                      
+	            <TextView 
+	                android:id="@+id/nickname"
+	                android:layout_height="match_parent"
+	                android:layout_width="wrap_content"
+	                android:gravity="center_vertical"
+	                android:text="shero"
+	                android:layout_marginLeft="8dp"
+	                android:textStyle="bold"
+	                android:textColor="@color/white"
+	                android:layout_gravity="center_horizontal"/>
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal"
+	            android:layout_marginTop="10dp">
+	
+	            <Button
+			        android:id="@+id/btn_collect"
+			        style="@style/drawerMenuButton"
+			        android:text="@string/collect"
+			        android:drawableLeft="@drawable/ic_menu_fav"
+			        android:layout_width="match_parent"/>
+	         	
+	            
+	            <Button
+			        android:id="@+id/btn_settings"
+			        style="@style/drawerMenuButton"
+			        android:text="@string/settings"
+			        android:drawableLeft="@drawable/ic_menu_settings"
+			        android:layout_width="match_parent"/>
+		                              
+	        </LinearLayout>
+        
+        </LinearLayout>
+                     
         <include layout="@layout/drawer_contents"></include>
         
-        </LinearLayout>
-    
-    
-    
-    
+    </LinearLayout>    
     
 </ScrollView>
     

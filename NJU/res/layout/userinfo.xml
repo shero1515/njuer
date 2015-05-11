@@ -12,161 +12,156 @@
         <LinearLayout         
             android:orientation="horizontal"
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content">
-            
+            android:layout_width="wrap_content">            
         
-        <ImageView 
-            android:id="@+id/avatar"
-            android:layout_width="@dimen/profile_avatar_width"
-            android:layout_height="@dimen/profile_avatar_height"
-            android:background="@drawable/bg_timeline_avatar"
-            android:padding="1dp"            
-            />
-        <TextView
-            android:id="@+id/username"
-            android:text="shero"
-            android:gravity="center_vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:ellipsize="end"></TextView>
+	        <ImageView 
+	            android:id="@+id/avatar"
+	            android:layout_width="@dimen/profile_avatar_width"
+	            android:layout_height="@dimen/profile_avatar_height"
+	            android:background="@drawable/bg_timeline_avatar"
+	            android:padding="1dp"/>            
+	            
+	        <TextView
+	            android:id="@+id/username"
+	            android:text="@string/nickname"
+	            android:gravity="center_vertical"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:textStyle="bold"
+	            android:layout_marginLeft="20dp"
+	            android:ellipsize="end"/>
         </LinearLayout>
         
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            
-            <TextView
-                android:id="@+id/myname"
-                android:text="@string/myname"
-                android:textColor="#000000"
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
-                style="?android:attr/listSeparatorTextViewStyle"
-                
-                ></TextView>
-            <TextView
-                android:linksClickable="true"
-                android:paddingLeft="50dp"
-                android:paddingRight="20dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                android:layout_marginTop="20dp"
-                android:textColor="#000000"    
-                style="?android:attr/listSeparatorTextViewStyle"  
-                android:text="shero"        
-                ></TextView>            
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            
-            <TextView
-                android:id="@+id/sex"
-                android:text="@string/sex"
-                android:textColor="#000000"
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
-                style="?android:attr/listSeparatorTextViewStyle"
-                
-                ></TextView>
-            <TextView
-                android:linksClickable="true"
-                android:text="女"
-                android:paddingLeft="50dp"
-                android:paddingRight="20dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                android:layout_marginTop="20dp"
-                android:textColor="#000000"    
-                style="?android:attr/listSeparatorTextViewStyle"          
-                ></TextView>            
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            
-            <TextView
-                android:id="@+id/mygrade"
-                android:text="@string/mygrade"
-                android:textColor="#000000"
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
-                style="?android:attr/listSeparatorTextViewStyle"
-                
-                ></TextView>
-            <TextView
-                android:linksClickable="true"
-                android:paddingLeft="50dp"
-                android:paddingRight="20dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                android:layout_marginTop="20dp"
-                android:text="11"
-                android:textColor="#000000"   
-                style="?android:attr/listSeparatorTextViewStyle"           
-                ></TextView>            
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            
-            <TextView
-                android:id="@+id/studentID"
-                android:text="@string/studentID"
-                android:textColor="#000000"
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
-                style="?android:attr/listSeparatorTextViewStyle"
-                
-                ></TextView>
-            <TextView
-                android:linksClickable="true"
-                android:text="111220145"
-                android:textColor="#000000"  
-                android:paddingLeft="50dp"
-                android:paddingRight="20dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                android:layout_marginTop="20dp"
-                style="?android:attr/listSeparatorTextViewStyle"           
-                ></TextView>            
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            
-            <TextView
-                android:id="@+id/mydepartment"
-                android:text="@string/mydepartment"
-                android:textColor="#000000"
-                android:layout_width="wrap_content"
-                android:layout_marginTop="20dp"
-                style="?android:attr/listSeparatorTextViewStyle"
-                
-                ></TextView>
-            <TextView
-                android:linksClickable="true"
-                android:text="CS"
-                android:textColor="#000000"     
-                android:paddingLeft="50dp"
-                android:paddingRight="20dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                android:layout_marginTop="20dp"
-                style="?android:attr/listSeparatorTextViewStyle"              
-                ></TextView>            
-        </LinearLayout>
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            
+	            <TextView
+	                android:id="@+id/myname"
+	                android:text="@string/myname"
+	                android:textColor="#000000"
+	                android:layout_marginTop="20dp"
+	                android:layout_width="wrap_content"
+	                style="?android:attr/listSeparatorTextViewStyle" />
+	                	               
+	            <TextView
+	                android:linksClickable="true"
+	                android:paddingLeft="50dp"
+	                android:paddingRight="20dp"
+	                android:paddingTop="5dp"
+	                android:paddingBottom="5dp"
+	                android:layout_marginTop="20dp"
+	                android:textColor="#000000"    
+	                style="?android:attr/listSeparatorTextViewStyle"  
+	                android:text="@string/nickname" />          
+	                         
+	        </LinearLayout>
+	        
+        	<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            
+	            <TextView
+	                android:id="@+id/sex"
+	                android:text="@string/sex"
+	                android:textColor="#000000"
+	                android:layout_marginTop="20dp"
+	                android:layout_width="wrap_content"
+	                style="?android:attr/listSeparatorTextViewStyle" />
+	                	               
+	            <TextView
+	                android:linksClickable="true"
+	                android:text="@string/female"
+	                android:paddingLeft="50dp"
+	                android:paddingRight="20dp"
+	                android:paddingTop="5dp"
+	                android:paddingBottom="5dp"
+	                android:layout_marginTop="20dp"
+	                android:textColor="#000000"    
+	                style="?android:attr/listSeparatorTextViewStyle" />            
+	                        
+        	</LinearLayout>
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            
+	            <TextView
+	                android:id="@+id/mygrade"
+	                android:text="@string/mygrade"
+	                android:textColor="#000000"
+	                android:layout_marginTop="20dp"
+	                android:layout_width="wrap_content"
+	                style="?android:attr/listSeparatorTextViewStyle" />	                
+	               
+	            <TextView
+	                android:linksClickable="true"
+	                android:paddingLeft="50dp"
+	                android:paddingRight="20dp"
+	                android:paddingTop="5dp"
+	                android:paddingBottom="5dp"
+	                android:layout_marginTop="20dp"
+	                android:text="11"
+	                android:textColor="#000000"   
+	                style="?android:attr/listSeparatorTextViewStyle" />             
+	                        
+	        </LinearLayout>
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            
+	            <TextView
+	                android:id="@+id/studentID"
+	                android:text="@string/studentID"
+	                android:textColor="#000000"
+	                android:layout_marginTop="20dp"
+	                android:layout_width="wrap_content"
+	                style="?android:attr/listSeparatorTextViewStyle" />
+	                	               
+	            <TextView
+	                android:linksClickable="true"
+	                android:text="111220145"
+	                android:textColor="#000000"  
+	                android:paddingLeft="50dp"
+	                android:paddingRight="20dp"
+	                android:paddingTop="5dp"
+	                android:paddingBottom="5dp"
+	                android:layout_marginTop="20dp"
+	                style="?android:attr/listSeparatorTextViewStyle" />            
+	                          
+	        </LinearLayout>
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            
+	            <TextView
+	                android:id="@+id/mydepartment"
+	                android:text="@string/mydepartment"
+	                android:textColor="#000000"
+	                android:layout_width="wrap_content"
+	                android:layout_marginTop="20dp"
+	                style="?android:attr/listSeparatorTextViewStyle" />
+	                	               
+	            <TextView
+	                android:linksClickable="true"
+	                android:text="CS"
+	                android:textColor="#000000"     
+	                android:paddingLeft="50dp"
+	                android:paddingRight="20dp"
+	                android:paddingTop="5dp"
+	                android:paddingBottom="5dp"
+	                android:layout_marginTop="20dp"
+	                style="?android:attr/listSeparatorTextViewStyle" />               
+	                           
+	        </LinearLayout>
        
         </LinearLayout>
         

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--  
+   <!-- 
     <LinearLayout 
         android:id="@+id/btn_home"
         android:orientation="horizontal"
@@ -46,7 +46,7 @@
         android:drawableLeft="@drawable/comment_light"
         ></Button>        
      </LinearLayout>
-     -->
+      -->  
      <LinearLayout
          android:orientation="vertical"
          android:visibility="visible"
@@ -73,6 +73,49 @@
         android:drawableLeft="@drawable/comment_light"
         android:layout_width="match_parent"
          ></Button>
+     <Button
+        android:id="@+id/btn_jiangzuo"
+        style="@style/drawerMenuButton"
+        android:text="@string/jiangzuo"
+        android:drawableLeft="@drawable/edit_light"
+        android:layout_width="match_parent"
+         ></Button>
+     <Button
+        android:id="@+id/btn_zhaopin"
+        style="@style/drawerMenuButton"
+        android:text="@string/zhaopin"
+        android:drawableLeft="@drawable/location_map_light"
+        android:layout_width="match_parent"
+         ></Button>
+     <Button
+        android:id="@+id/btn_qiusai"
+        style="@style/drawerMenuButton"
+        android:text="@string/qiusai"
+        android:drawableLeft="@drawable/statusnewactivity_gps_light"
+        android:layout_width="match_parent"
+         ></Button>
+     <Button
+        android:id="@+id/btn_shangjia"
+        style="@style/drawerMenuButton"
+        android:text="@string/shangjia"
+        android:drawableLeft="@drawable/statusnewactivity_send_light"
+        android:layout_width="match_parent"
+         ></Button>
+     <Button
+        android:id="@+id/btn_tuandui"
+        style="@style/drawerMenuButton"
+        android:text="@string/tuandui"
+        android:drawableLeft="@drawable/share_light"
+        android:layout_width="match_parent"
+         ></Button>
+     <Button
+        android:id="@+id/btn_qita"
+        style="@style/drawerMenuButton"
+        android:text="@string/qita"
+        android:drawableLeft="@drawable/ic_menu_message"
+        android:layout_width="match_parent"
+         ></Button>
+    <!-- 
      <Button
         android:id="@+id/btn_collect"
         style="@style/drawerMenuButton"
@@ -101,6 +144,7 @@
         android:drawableLeft="@drawable/ic_menu_settings"
         android:layout_width="match_parent"
          ></Button>
+     -->
    	</LinearLayout>
     
 
